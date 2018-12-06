@@ -1,0 +1,148 @@
+@font-face {
+    font-family: HendersonSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url("fonts/Henderson Sans W00 Basic Light.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: italic;
+    font-weight: 200;
+    src: url("fonts/Henderson Sans W00 Basic Lt It.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Henderson Sans W00 Basic Rg.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: italic;
+    font-weight: 400;
+    src: url("fonts/Henderson Sans W00 Basic Rg It.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/Henderson Sans W00 Basic SemiBd.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: italic;
+    font-weight: 600;
+    src: url("fonts/Henderson Sans W00 Basic SB It.ttf");
+}
+@font-face {
+    font-family: HendersonSans;
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/Henderson Sans W00 Basic Bold.ttf");
+}
+@font-face {
+    font-family: OpificioSerif;
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/Opificio-Serif-Bold.ttf");
+}
+html{
+  font-size: 16px;
+  font-family: HendersonSans;
+  line-height: 1.5;
+  color: #343833;
+  scroll-behavior: smooth;
+}
+h1{
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #275989
+}
+h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+header>a{
+  font-family: OpificioSerif;
+  color: #444a43;
+  font-size: 18px;
+  transition: .2s;
+}
+header>a:hover{
+  opacity: .6;
+}
+footer{
+  color: #FFFDE3;
+}
+#contact>a{
+  color: #FFFDE3;
+  text-decoration: underline;
+}
+#contact>a:visited{
+  color: #FFFDE3;
+}
+.text-cream{
+ color: #FFFDE3;
+}
+.round-logo{
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.social>a{
+  color: #343833;
+  text-decoration: none;
+}
+.bg-gw-cream{
+  /* background-color: #FFFDE3; */
+  background-color: #FEFBD4
+}
+.bg-gw-blue{
+  background-color: #275989;
+}
+.header-style{
+  background-color: #FEFBD4;
+}
+
+/* @media (min-width: 500px) {
+  .header-height{
+  height: 50rem;
+} */
+ @media (min-width: 768px) {
+  header :nth-child(1) { order: 3; }
+  header :nth-child(2) { order: 1; }
+  header :nth-child(3) { order: 2; }
+  header :nth-child(4) { order: 4; }
+  header :nth-child(5) { order: 5; }
+}
+@media (min-width: 992px) {
+  .header-style{
+    height: 72rem;
+    background-color: white
+  }
+  .header-background{
+    position: absolute;
+  }
+  .header-background.underlay{
+    /* background-image: url(../images/wattle-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 46rem;
+  }
+  .header-background.logo{
+    padding-top: 2rem;
+  }
+  .header-background.address{
+    padding-top: 18rem;
+    z-index: 1;
+  }
+  .header-background.image{
+    padding-top: 26rem;
+  }
+  .header-background.social{
+  }
+ }
