@@ -36,7 +36,7 @@
     </div>
   </section>
   <section class="flex flex-col items-center m-auto text-center max-w-lg pt-12 pb-12">
-    <h2 class="pb-6 px-4 text-lg md:text-2xl">Welcome to The Golden Wattle. <br> Classic Pub hospitality in the heart of the Adelaide.</h2>
+    <h2 class="pb-6 px-4 text-lg md:text-2xl">Welcome to The Golden Wattle. <br> Classic Pub hospitality in the heart of Adelaide.</h2>
     <h3 class="max-w-md">Open Monday to Friday for Breakfast, Lunch & Dinner, Saturday for Lunch & Dinner.</h3>
   </section>
   <section id="menus" class="m-auto text-center max-w-xl pt-12 lg:pb-12">
