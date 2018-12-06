@@ -1,0 +1,28 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.carousel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 22rem;
+}
+.fade {
+  position: absolute;
+  transition: 0.5s;
+}
+@media (min-width: 476px){
+  .carousel{
+    height: 30rem;
+  }
+}
+@media (min-width: 700px) {
+  .carousel{
+    height: 40rem;
+  }
+}
+@media (min-width: 900px) {
+  .carousel{
+    height: 50rem;
+  }
+}
