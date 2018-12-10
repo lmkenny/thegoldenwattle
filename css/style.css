@@ -107,7 +107,9 @@ footer{
 .header-style{
   background-color: #FEFBD4;
 }
-
+.mt-neg70{
+  margin-top: -70px;
+}
 /* @media (min-width: 500px) {
   .header-height{
   height: 50rem;
