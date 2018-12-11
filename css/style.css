@@ -97,6 +97,10 @@ footer{
   color: #343833;
   text-decoration: none;
 }
+.footer-social>a{
+  color: #FFFDE3;
+  text-decoration: none;
+}
 .bg-gw-cream{
   /* background-color: #FFFDE3; */
   background-color: #FEFBD4
