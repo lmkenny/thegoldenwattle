@@ -114,6 +114,9 @@ footer{
 .mt-neg70{
   margin-top: -70px;
 }
+.hover-fade:hover{
+  opacity: .75;
+}
 /* @media (min-width: 500px) {
   .header-height{
   height: 50rem;
